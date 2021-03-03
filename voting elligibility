@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int age ,i;
+  cin>>age;
+  if(age>18)
+  {
+    cout<<"elligible for voting"<<endl;
+  }
+  else
+  {
+    cout<<" not elligible for voting"<<endl;
+  }
+  return 0;
+}
